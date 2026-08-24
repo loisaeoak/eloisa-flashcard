@@ -8,7 +8,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background-color: #dbb6ee; /* Tom lilás claro da paleta */
+    background-color: #7f4ca5; /* Fundo alterado para o tom de roxo mais escuro */
     font-family: sans-serif;
 }
 
@@ -17,11 +17,11 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #4b1c71; /* Roxo mais escuro da paleta */
+    background-color: #4b1c71; /* Roxo escuro para o cabeçalho */
 }
 
 .cabecalho-link {
-    color: #fff0ff; /* Tom mais claro para destaque */
+    color: #fff0ff;
     text-decoration: none;
     font-weight: bold;
 }
@@ -31,7 +31,7 @@ h1 {
 }
 
 h2 {
-    color: #4b1c71;
+    color: #fff0ff; /* Alterado para branco/lilás claro para dar contraste no fundo escuro */
 }
 
 main {
@@ -77,8 +77,8 @@ section {
     border-radius: 12px;
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
     backface-visibility: hidden;
-    background-color: #fff0ff; /* Fundo do cartão bem suave */
-    color: #4b1c71; /* Texto em roxo escuro para contraste */
+    background-color: #fff0ff; /* Fundo suave dentro do cartão */
+    color: #4b1c71; /* Texto roxo escuro para facilitar a leitura */
     padding: 15px;
     display: flex;
     flex-direction: column;
@@ -99,7 +99,7 @@ section {
 }
 
 footer {
-    background-color: #7f4ca5; /* Tom intermediário vibrante */
+    background-color: #4b1c71;
     padding: 15px 25px;
     text-align: center;
     color: #fff0ff;
