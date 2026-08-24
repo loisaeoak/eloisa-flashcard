@@ -8,7 +8,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background-color: #c8b6ff; /* Fundo alterado para lilás */
+    background-color: #e2d9f3; /* Roxo bem claro para o fundo */
     font-family: sans-serif;
 }
 
@@ -17,16 +17,21 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(255, 174, 224);
+    background-color: #7b2cbf; /* Roxo normal/vibrante */
 }
 
 .cabecalho-link {
-    color: #fa89b8;
+    color: #ffffff;
     text-decoration: none;
+    font-weight: bold;
 }
 
 h1 {
-    color: #ffabdc;
+    color: #ffffff;
+}
+
+h2 {
+    color: #3c096c; /* Roxo escuro para destaque do título principal */
 }
 
 main {
@@ -72,7 +77,8 @@ section {
     border-radius: 12px;
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
     backface-visibility: hidden;
-    background-color: white;
+    background-color: #a24dfd; /* Roxo muito claro para o fundo do cartão */
+    color: #ede9ef; /* Texto em tom de roxo bem escuro */
     padding: 15px;
     display: flex;
     flex-direction: column;
@@ -93,7 +99,7 @@ section {
 }
 
 footer {
-    background-color: #ff588a;
+    background-color: #7f18e6; /* Roxo para o rodapé */
     padding: 15px 25px;
     text-align: center;
     color: white;
